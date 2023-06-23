@@ -516,6 +516,8 @@ namespace BTCPayServer.Hosting
                     });
             }
 
+            services.AddSingleton<BtcPayAppService>();
+
             return services;
         }
 
